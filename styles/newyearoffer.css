@@ -3,9 +3,13 @@
 }
 
 /* shared styles */
-.background-color{
-    /* background: linear-gradient( rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url(); */
+.text-primary{
+    color: rgba(7, 2, 17, 1);
 }
+
+/* .text-secondary{color: rgba(255, 0, 0, 1);} */
+
+/* .text-tertiary{color: rgba(255, 255, 255, 1);} */
 
 /* header styles */
 #banner{
@@ -36,7 +40,7 @@
 
 /* main styles */
 main section{
-    margin: 100px auto;
+    margin: 120px auto;
     width: 1320px;
 }
 
@@ -62,7 +66,6 @@ main section{
 
 }
 #deals .subtitle{
-    color: rgb(7, 2, 17);
     font-size: 48px;
     font-weight: bold;
     margin-top: 20px;
@@ -107,9 +110,11 @@ main section{
     color: rgb(255, 255, 255);
     background-color: transparent;
     border: none;
-    margin-left: 30px;
+    padding: 15px 30px;
 }
 
 .image-box img{
     width: 100%;
 }
+
+/*  */
