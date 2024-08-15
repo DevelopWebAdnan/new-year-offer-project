@@ -28,3 +28,35 @@
     font-weight: bolder;
     margin-top: 20px;
 }
+
+/* deals section styles */
+#deals{
+    width: 800px;
+    margin: 100px auto;
+}
+.deals-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#deals .title, #deals p{
+    color: red;
+}
+#deals .title{
+    font-size: 88px;
+    font-weight: bold;
+}
+#deals p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+
+}
+#deals .subtitle{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.deals-image{
+    width: 100%;
+}
