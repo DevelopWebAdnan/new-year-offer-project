@@ -1,6 +1,4 @@
-*{
-    /* margin: 0; */
-}
+/* *{margin: 0;} */
 
 /* shared styles */
 
@@ -22,6 +20,14 @@
     border-radius: 8px;
 }
 
+.title{
+    font-weight: bolder;
+}
+
+.subtitle{
+    font-size: 32px;
+}
+
 /* header styles */
 #banner{
     background: linear-gradient( rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
@@ -40,12 +46,9 @@
     color: white;
     text-align: center;
 }
-.subtitle{
-    font-size: 32px;
-}
-.title{
+
+.banner-content .title{
     font-size: 72px;
-    font-weight: bolder;
     margin-top: 16px;
 }
 
@@ -63,9 +66,7 @@ main section{
     text-align: center;
     margin-bottom: 50px;
 }
-#deals .title, #deals p{
-    /* color: red; */
-}
+
 #deals .title{
     font-size: 88px;
     font-weight: bold;
@@ -107,7 +108,6 @@ main section{
 }
 .welcome-content .title{
     font-size: 64px;
-    font-weight: bolder;
     margin-bottom: 24px;
 }
 .welcome-content .description{
@@ -137,7 +137,6 @@ main section{
 }
 
 .place-content{
-    /* font-size: 32px; */
     font-weight:600;
     text-align: center;
 }
