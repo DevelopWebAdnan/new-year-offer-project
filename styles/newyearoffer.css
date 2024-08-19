@@ -79,9 +79,11 @@
 .subtitle{
     font-weight: 500;
     font-size: 24px;
+    margin-bottom: 16px;
 }
 .title{
     font-weight: 900;
+    margin-top: 16px;
 }
 
 .image-box img{
@@ -112,7 +114,7 @@
 }
 .banner-content .title{
     font-size: 72px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
 }
 
 /* main styles */
@@ -236,7 +238,7 @@ main section{
 }
 .coming-soon-content-1 .title{
     margin-bottom: 22px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
 }
 .coming-soon-content-1 .description, .coming-soon-content-2 .description{
     font-size: 20px;
@@ -289,7 +291,7 @@ main section{
     justify-content: space-between;
     /* align-items: center; */
     /* background: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'); */
-    border: 4px solid blue;
+    
     border-radius: 16px;
 }
 .holidays-sale-images > .image-box{
@@ -297,3 +299,19 @@ main section{
     border: 2px solid green;
 }
 /* .holidays-sale-images .image-box img{width: 100%;} */
+
+/* portfolio section styles */
+#portfolio{
+    border: 4px solid blue;
+    border-radius: 16px;
+
+}
+.portfolio-images-container{
+    display: flex;
+    border: 3px solid red;
+
+}
+.portfolio-images-container .image-box{
+    width: 33.335%;
+    border: 2px solid green;
+}
