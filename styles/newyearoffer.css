@@ -77,7 +77,8 @@
 }
 
 .subtitle{
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 24px;
 }
 .title{
     font-weight: 900;
@@ -106,7 +107,9 @@
     color: white;
     text-align: center;
 }
-/* .banner-content .subtitle{font-size: 32px;} */
+.banner-content .subtitle{
+    font-size: 32px;
+}
 .banner-content .title{
     font-size: 72px;
     margin-top: 16px;
@@ -192,10 +195,12 @@ main section{
 }
 
 .place-content{
-    font-weight:600;
     text-align: center;
 }
-/* .place-content .subtitle{} */
+.place-content .subtitle{
+    font-weight:600;
+    font-size: 32px;
+}
 .place-content .btn-primary{
     background-color: red;
 }
@@ -206,7 +211,6 @@ main section{
     justify-content: space-between;
     align-items: center;
     /* height: 463px; */
-    border: 4px solid blue;
     /* gap: 70px; */
 }
 /* #coming-soon > div{ width: 33.335%;} */
@@ -259,4 +263,15 @@ main section{
 }
 .coming-soon-content-2 img{
     width: 140px;
+}
+
+/* holidays-sale section styles */
+#holidays-sale{
+    background: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.holidays-sale-images{
+    display: flex;
+    border: 4px solid blue;
 }
