@@ -215,7 +215,7 @@ main section{
 }
 /* #coming-soon > div{ width: 33.335%;} */
 .coming-soon-content-1, .coming-soon-content-2{
-    border: 2px solid red;
+    
     /* width: 28%; */
 }
 .coming-soon-content-1{
@@ -241,7 +241,6 @@ main section{
 .coming-soon-content-1 .description, .coming-soon-content-2 .description{
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
-    
 }
 .coming-soon-content-2 .description{
     margin-bottom: 40px;
@@ -269,9 +268,32 @@ main section{
 #holidays-sale{
     background: url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom left, bottom;
+}
+.holidays-sale-content{
+    text-align: center;
+    margin: 0 125px 65px;
+}
+.holidays-sale-content .title{
+    font-size: 72px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.holidays-sale-content .description{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
 }
 .holidays-sale-images{
     display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'); */
     border: 4px solid blue;
+    border-radius: 16px;
 }
+.holidays-sale-images > .image-box{
+    max-width: 50%;
+    border: 2px solid green;
+}
+/* .holidays-sale-images .image-box img{width: 100%;} */
