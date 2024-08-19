@@ -84,6 +84,12 @@
 .title{
     font-weight: 900;
     margin-top: 16px;
+    margin-bottom: 22px;
+    font-size: 48px;
+}
+.description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
 }
 
 .image-box img{
@@ -216,10 +222,7 @@ main section{
     /* gap: 70px; */
 }
 /* #coming-soon > div{ width: 33.335%;} */
-.coming-soon-content-1, .coming-soon-content-2{
-    
-    /* width: 28%; */
-}
+/* .coming-soon-content-1, .coming-soon-content-2{width: 28%;} */
 .coming-soon-content-1{
     width: 33%;
     /* margin-right: 70px; */
@@ -233,17 +236,12 @@ main section{
     font-weight: 500;
     margin-bottom: 16px;
 }
-.coming-soon-content-1 .title, .coming-soon-content-2 .title{
-    font-size: 48px;
-}
-.coming-soon-content-1 .title{
-    margin-bottom: 22px;
-    /* margin-top: 16px; */
-}
-.coming-soon-content-1 .description, .coming-soon-content-2 .description{
+/* .coming-soon-content-1 .title, .coming-soon-content-2 .title{font-size: 48px;} */
+/* .coming-soon-content-1 .title{margin-bottom: 22px;margin-top: 16px;} */
+/* .coming-soon-content-1 .description, .coming-soon-content-2 .description{
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
-}
+} */
 .coming-soon-content-2 .description{
     margin-bottom: 40px;
 }
@@ -274,24 +272,23 @@ main section{
 }
 .holidays-sale-content{
     text-align: center;
-    margin: 0 125px 65px;
+    margin: 0 125px;
 }
 .holidays-sale-content .title{
     font-size: 72px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
     margin-bottom: 28px;
 }
 .holidays-sale-content .description{
     font-weight: 500;
-    font-size: 20px;
-    color: rgba(7, 2, 17, 0.6);
+    /* font-size: 20px;
+    color: rgba(7, 2, 17, 0.6); */
 }
 .holidays-sale-images{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     /* background: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'); */
-    
+    margin-top: 65px;
     border-radius: 16px;
 }
 .holidays-sale-images > .image-box{
@@ -302,16 +299,76 @@ main section{
 
 /* portfolio section styles */
 #portfolio{
-    border: 4px solid blue;
+    
     border-radius: 16px;
 
 }
+.portfolio-content{
+    margin-right: 420px;
+}
+/* .portfolio-content .title{margin-bottom: 22px;font-size: 48px;} */
+
 .portfolio-images-container{
     display: flex;
-    border: 3px solid red;
+    
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
 
 }
 .portfolio-images-container .image-box{
-    width: 33.335%;
-    border: 2px solid green;
+    max-width: 418px;
+   
+    border-radius: 16px;
 }
+.portfolio-images-container .image-box img{
+    height: 100%;
+}
+
+/* subscribe section styles */
+#subscribe{
+    /* height: 620px; */
+    background-color: rgba(255, 0, 0, 0.05);
+    /* display: flex;justify-content: center;align-items: center; */
+}
+
+.subscribe-content{
+    text-align: center;
+    padding: 80px 210px;
+    border: 4px solid blue;
+}
+.subscribe-content .title{
+    margin-top: 40px;
+}
+.subscribe-content form{
+    border-radius: 50px;
+    border: 2px solid green;
+    width: 650px;
+    height: 72px;
+    margin: 48px auto 0;
+    position: relative;
+
+}
+.subscribe-content form input[type="email"], .subscribe-content .btn-primary{
+    height: 100%;
+    position: absolute;
+    border: none;
+}
+.subscribe-content form input[type="email"]{
+    border-radius: 50px 0 0 50px;
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.3);
+    width: 65%;
+    background-color: white;
+    left: 0;
+}
+.subscribe-content .btn-primary{
+    background-color: red;
+    border-radius: 0 50px 50px 0;
+    font-weight: 600;
+    margin: 0;
+    right: 0;
+    width: 35%;
+} 
