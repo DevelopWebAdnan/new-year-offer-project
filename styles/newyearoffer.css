@@ -371,4 +371,17 @@ main section{
     margin: 0;
     right: 0;
     width: 35%;
-} 
+}
+
+/* footer styles */
+.footer{
+    height: 610px;
+    background-color: rgba(7, 2, 17, 1);
+}
+.footer-container{
+    color: white;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+}
