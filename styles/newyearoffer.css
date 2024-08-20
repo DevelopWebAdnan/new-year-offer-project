@@ -231,11 +231,11 @@ main section{
     width: 25%;
     /* margin-left: 120px; */
 }
-.coming-soon-content-1 .subtitle{
+/* .coming-soon-content-1 .subtitle{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
-}
+} */
 /* .coming-soon-content-1 .title, .coming-soon-content-2 .title{font-size: 48px;} */
 /* .coming-soon-content-1 .title{margin-bottom: 22px;margin-top: 16px;} */
 /* .coming-soon-content-1 .description, .coming-soon-content-2 .description{
@@ -293,15 +293,12 @@ main section{
 }
 .holidays-sale-images > .image-box{
     max-width: 50%;
-    border: 2px solid green;
 }
 /* .holidays-sale-images .image-box img{width: 100%;} */
 
 /* portfolio section styles */
 #portfolio{
-    
     border-radius: 16px;
-
 }
 .portfolio-content{
     margin-right: 420px;
@@ -310,7 +307,6 @@ main section{
 
 .portfolio-images-container{
     display: flex;
-    
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-between;
@@ -320,7 +316,6 @@ main section{
 }
 .portfolio-images-container .image-box{
     max-width: 418px;
-   
     border-radius: 16px;
 }
 .portfolio-images-container .image-box img{
@@ -344,12 +339,10 @@ main section{
 }
 .subscribe-content form{
     border-radius: 50px;
-    border: 2px solid green;
     width: 650px;
     height: 72px;
     margin: 48px auto 0;
     position: relative;
-
 }
 .subscribe-content form input[type="email"], .subscribe-content .btn-primary{
     height: 100%;
@@ -377,11 +370,37 @@ main section{
 .footer{
     height: 610px;
     background-color: rgba(7, 2, 17, 1);
+    display: flex;
+   
 }
 .footer-container{
     color: white;
+    width: 1320px;
+    border: 4px solid blue;
+    /* padding: 120px 140px; */
 }
 .contact-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border: 2px solid green;
 }
+.contact-info .subtitle{
+    border: 2px solid red;
+    list-style: none;
+    padding: 0;
+
+}
+.contact-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons-container{
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
