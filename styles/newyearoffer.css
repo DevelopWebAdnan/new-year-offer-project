@@ -1,51 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
-.merriweather-light {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
   
   .merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
-  .merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+
   .merriweather-black {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
-  }
-  
-  .merriweather-light-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .merriweather-regular-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .merriweather-bold-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .merriweather-black-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: italic;
   }
   
 .inter-font {
@@ -54,7 +18,9 @@
   font-style: normal;
 }
 
-/* *{margin: 0;} */
+*{
+    margin: 0;
+}
 
 /* shared styles */
 
@@ -62,9 +28,9 @@
     color: rgba(7, 2, 17, 1);
 }
 
-.text-secondary{color: rgba(255, 0, 0, 1);}
-
-/* .text-tertiary{color: rgba(255, 255, 255, 1);} */
+.text-secondary{
+    color: rgba(255, 0, 0, 1);
+}
 
 .btn-primary{
     font-size: 20px;
@@ -74,6 +40,7 @@
     padding: 16px 32px;
     margin-top: 48px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .subtitle{
@@ -102,25 +69,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
     width: 1320px;
     border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 50px auto;
 }
 
 .banner-content{
     color: white;
     text-align: center;
+    padding: 175px 345px;
 }
 .banner-content .subtitle{
     font-size: 32px;
 }
 .banner-content .title{
     font-size: 72px;
-    /* margin-top: 16px; */
 }
 
 /* main styles */
@@ -158,7 +121,6 @@ main section{
 
 /* welcome section styles */
 #welcome{
-    height: 600px;
     background: linear-gradient(to right, rgb(7, 2, 17) 0%, rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -191,19 +153,13 @@ main section{
 
 /* place section styles */
 #place{
-    height: 480px;
     background: linear-gradient(rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0) 100%);
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* background-size: cover; */
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .place-content{
     text-align: center;
+    padding: 100px 385px;
 }
 .place-content .subtitle{
     font-weight:600;
@@ -218,30 +174,15 @@ main section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 463px; */
-    /* gap: 70px; */
 }
-/* #coming-soon > div{ width: 33.335%;} */
-/* .coming-soon-content-1, .coming-soon-content-2{width: 28%;} */
+
 .coming-soon-content-1{
     width: 33%;
-    /* margin-right: 70px; */
 }
 .coming-soon-content-2{
     width: 25%;
-    /* margin-left: 120px; */
 }
-/* .coming-soon-content-1 .subtitle{
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 16px;
-} */
-/* .coming-soon-content-1 .title, .coming-soon-content-2 .title{font-size: 48px;} */
-/* .coming-soon-content-1 .title{margin-bottom: 22px;margin-top: 16px;} */
-/* .coming-soon-content-1 .description, .coming-soon-content-2 .description{
-    font-size: 20px;
-    color: rgba(7, 2, 17, 0.6);
-} */
+
 .coming-soon-content-2 .description{
     margin-bottom: 40px;
 }
@@ -249,11 +190,9 @@ main section{
 #coming-soon .image-box{
     border-radius: 50%;
     width: 33%;
-    /* height: 460px; */
     border: 15px solid red;
     padding: 50px;
     margin: 0 120px 0 70px;
-    /* margin: 0 auto; */
 }
 
 .coming-soon-content-2 .title{
@@ -268,7 +207,7 @@ main section{
 #holidays-sale{
     background: url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position: bottom left, bottom;
+    background-position: bottom;
 }
 .holidays-sale-content{
     text-align: center;
@@ -276,25 +215,17 @@ main section{
 }
 .holidays-sale-content .title{
     font-size: 72px;
-    /* margin-top: 16px; */
     margin-bottom: 28px;
 }
 .holidays-sale-content .description{
     font-weight: 500;
-    /* font-size: 20px;
-    color: rgba(7, 2, 17, 0.6); */
 }
 .holidays-sale-images{
     display: flex;
     justify-content: space-between;
-    /* background: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'); */
     margin-top: 65px;
     border-radius: 16px;
 }
-.holidays-sale-images > .image-box{
-    max-width: 50%;
-}
-/* .holidays-sale-images .image-box img{width: 100%;} */
 
 /* portfolio section styles */
 #portfolio{
@@ -303,7 +234,6 @@ main section{
 .portfolio-content{
     margin-right: 420px;
 }
-/* .portfolio-content .title{margin-bottom: 22px;font-size: 48px;} */
 
 .portfolio-images-container{
     display: flex;
@@ -324,40 +254,43 @@ main section{
 
 /* subscribe section styles */
 #subscribe{
-    /* height: 620px; */
     background-color: rgba(255, 0, 0, 0.05);
-    /* display: flex;justify-content: center;align-items: center; */
+    border-radius: 16px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .subscribe-content{
     text-align: center;
-    padding: 80px 210px;
-    border: 4px solid blue;
+    margin: 0px 210px; 
+}
+.subscribe-content img{
+    width: 150px;
 }
 .subscribe-content .title{
     margin-top: 40px;
 }
-.subscribe-content form{
+.subscribe-form{
     border-radius: 50px;
     width: 650px;
     height: 72px;
     margin: 48px auto 0;
     position: relative;
 }
-.subscribe-content form input[type="email"], .subscribe-content .btn-primary{
-    height: 100%;
+.subscribe-form input[type="email"], .subscribe-form .btn-primary{
     position: absolute;
     border: none;
+    padding: 25px 40px;
 }
-.subscribe-content form input[type="email"]{
+.subscribe-form input[type="email"]{
     border-radius: 50px 0 0 50px;
     font-size: 18px;
     color: rgba(7, 2, 17, 0.3);
-    width: 65%;
+    width: 53%;
     background-color: white;
     left: 0;
 }
-.subscribe-content .btn-primary{
+.subscribe-form .btn-primary{
     background-color: red;
     border-radius: 0 50px 50px 0;
     font-weight: 600;
@@ -368,27 +301,24 @@ main section{
 
 /* footer styles */
 .footer{
-    height: 610px;
     background-color: rgba(7, 2, 17, 1);
-    display: flex;
-   
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .footer-container{
     color: white;
     width: 1320px;
-    border: 4px solid blue;
-    /* padding: 120px 140px; */
+    margin: 0 auto;
 }
 .contact-info{
     display: flex;
     justify-content: space-between;
-    border: 2px solid green;
+    align-items: center;
+    margin-right: 135px;
 }
 .contact-info .subtitle{
-    border: 2px solid red;
     list-style: none;
     padding: 0;
-
 }
 .contact-item a{
     text-decoration: none;
@@ -404,3 +334,14 @@ main section{
     padding-bottom: 48px;
 }
 
+.copyright-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.unsubscribe-btn .btn-primary{
+    margin: 0;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 500;
+}
